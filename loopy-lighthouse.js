@@ -8,7 +8,7 @@ for (let x = 100; x < 201; x++) {
     output += 'Lighthouse';
   }
   else if (!output) {
-    output += x;
+    output = x;
   }
   console.log(output);
 }
